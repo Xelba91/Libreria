@@ -12,12 +12,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (mysqli_query($conn, $sql)) {
         echo "Dati libro aggiornati con successo";
+   
+        echo "<script>setTimeout(function() { window.location.href = 'index.php'; }, 1500);</script>";
     } else {
         echo "Errore durante l'aggiornamento dei dati del libro: " . mysqli_error($conn);
     }
 }
 
 mysqli_close($conn);
-header("Location: index.php?status=success");
-
 ?>

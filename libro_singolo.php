@@ -11,9 +11,9 @@ $rating = (mt_rand(0, 40) / 10) + 1;
         <div class="product-detail-container p-2">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h6 class="fs-6 font-weight-bold text-center">
+                <h5 class="font-weight-bold text-center">
                     <?php echo $book['titolo']; ?>
-                </h6>
+                </h5>
                 
             </div>
         
@@ -36,7 +36,7 @@ $rating = (mt_rand(0, 40) / 10) + 1;
             </div>
 
             <div class="rating">
-        <span class="rating-number"><?php echo $rating; ?></span>
+        <span class="rating-number "><?php echo $rating; ?></span>
         <?php
         for ($i = 1; $i <= 5; $i++) {
             if ($rating >= $i - 0.5) {
@@ -66,7 +66,7 @@ $rating = (mt_rand(0, 40) / 10) + 1;
                             $icon_class = 'bi bi-heart';
                             break;
                             case 'Giallo':
-                                $icon_class = 'bi bi-heart';
+                                $icon_class = 'bi bi-search';
                                 break;
                         default:
                             $icon_class = 'bi bi-book';

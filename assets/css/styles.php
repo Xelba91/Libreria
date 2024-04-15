@@ -628,7 +628,7 @@ font-size: 10px !important
 }
 
 .rating-number {
-font-size: 10px;
+font-size: 14px;
 color: grey
 }
 
