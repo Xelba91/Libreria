@@ -11,7 +11,7 @@ $rating = (mt_rand(0, 40) / 10) + 1;
         <div class="product-detail-container p-2">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h5 class="font-weight-bold text-center">
+                <h5 class="fw-bold text-center">
                     <?php echo $book['titolo']; ?>
                 </h5>
                 
@@ -77,10 +77,10 @@ $rating = (mt_rand(0, 40) / 10) + 1;
                     <button type="button" class="btn creme" style="padding: 8px 12px;"><i
                             class="<?php echo $icon_class; ?>"></i></button>
 
-                            <a href='RimuovereLibro.php?id=<?php echo $book['id']; ?>' class="btn red ml-2 d-flex align-items-center" onclick="return confirm('Sei sicuro di voler eliminare questo libro?')">
+                            <a href='RimuovereLibro.php?id=<?php echo $book['id']; ?>' class="btn red ms-2 d-flex align-items-center" onclick="return confirm('Sei sicuro di voler eliminare questo libro?')">
     <i class="bi bi-trash-fill"></i>
 </a>
-                    <a href='modificazione_libro.php?id=<?php echo $book['id']; ?>' class="btn blue ml-2 d-flex align-items-center"><i
+                    <a href='modificazione_libro.php?id=<?php echo $book['id']; ?>' class="btn blue ms-2 d-flex align-items-center"><i
                             class="bi bi-pencil-square"></i></a>
                 </div>
                 <div class="d-flex">
