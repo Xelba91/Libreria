@@ -36,7 +36,7 @@ if (isset($_GET['query'])) {
 
         echo "</table>";
     } else {
-        echo "<p>Nessun risultato trovato.</p>";
+        echo "<p class='ms-2'>Nessun risultato trovato.</p>";
     }
 
 
