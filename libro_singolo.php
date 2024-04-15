@@ -1,5 +1,5 @@
 <?php
-// Genera un numero casuale tra 1.0 e 5.0
+// ho messo una funzione per generare dei numeri random per le stelle XD.
 $rating = (mt_rand(0, 40) / 10) + 1;
 ?>
 
@@ -36,6 +36,7 @@ $rating = (mt_rand(0, 40) / 10) + 1;
             </div>
 
             <div class="rating">
+               
         <span class="rating-number "><?php echo $rating; ?></span>
         <?php
         for ($i = 1; $i <= 5; $i++) {
@@ -51,7 +52,7 @@ $rating = (mt_rand(0, 40) / 10) + 1;
         }
         ?>
     </div>
-     
+     <!-- a seconda del genere si visualizza un'icona diversa :) -->
             <div class="d-flex justify-content-between align-items-center pt-1">
                 <div class="color-select d-flex">
                     <?php
