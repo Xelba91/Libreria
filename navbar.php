@@ -89,13 +89,13 @@
                                         name="anno_pubblicazione" required>
                                 </div>
                                 <div class="form-group">
-                                  <label for="genere">Genere:</label>
-                                    <select class="form-control" id="genere" name="genere">
-                                         <option value="Romanzo" >Romanzo</option>
-                                         <option value="Fantasy" >Fantasy</option>
-                                         <option value="Giallo" >Giallo</option>
-
-                                         </select>
+    <label for="genere">Genere:</label>
+    <select class="form-control" id="genere" name="genere" required>
+        <option value="" selected hidden>Scegli il genere</option>
+        <option value="Romanzo">Romanzo</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Giallo">Giallo</option>
+    </select>
 </div>
                                 
                                 <button type="submit" class="btn btn-primary mt-3">AGGIUNGI</button>
