@@ -14,7 +14,7 @@ if (isset($_GET['genere'])) {
 
 <div class="container">
 
-    <h2 class="text-center">Elenco dei libri disponibili</h2>
+    <h2 class="text-center mt-1">Elenco dei libri disponibili</h2>
 
     <?php if ($books): ?>
         <?php displayBooks($books); ?>

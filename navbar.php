@@ -22,14 +22,7 @@
 <body>
 
     <header class="head">
-        <div class="logo border-bottom">
-            <img class="w-100" src="assets/img/"  alt="" />
-            <a class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="bi bi-list"></i>
-            </a>
-        </div>
+        
         <div id="navbarSupportedContent" class="navcol pt-0 d-none d-lg-block">
             <ul>
                 <li class="border-bottom text-center">

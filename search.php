@@ -21,7 +21,7 @@ if (isset($_GET['query'])) {
     $result = mysqli_stmt_get_result($stmt);
 
     if (mysqli_num_rows($result) > 0) {
-        echo "<h2>Risultato della ricerca</h2>";
+        echo "<h2 class='ml-2'  >Risultato della ricerca</h2>";
         echo "<table class='table'>";
         echo "<tr><th>Titolo</th><th>Autore</th><th>Anno di pubblicazione</th><th>Genere</th></tr>";
 
