@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Apr 15, 2024 alle 16:29
+-- Creato il: Apr 15, 2024 alle 16:43
 -- Versione del server: 10.4.32-MariaDB
 -- Versione PHP: 8.2.12
 
@@ -46,8 +46,8 @@ INSERT INTO `libri` (`id`, `titolo`, `autore`, `anno_pubblicazione`, `genere`) V
 (12, 'Harry potter e il prigioniero di Azkaban', 'J. K. Rowling', 2000, 'Fantasy'),
 (13, 'Il signore degli anelli Le due torri', 'J.R.R Tolkien', 1954, 'Fantasy'),
 (16, 'la torre', 'Riccardo Salzini', 2001, 'Romanzo'),
-(17, 'l\'Amore è sacro', 'Leonardo Vettore', 2013, 'Romanzo'),
-(18, 'Il signore degli anelli - La compagnia dell\'anello', 'J.R.R Tolkien', 1977, 'Fantasy');
+(17, 'Amore  sacro', 'Leonardo Vettore', 2013, 'Romanzo'),
+(18, 'Il signore degli anelli - La compagnia ', 'J.R.R Tolkien', 1977, 'Romanzo');
 
 --
 -- Indici per le tabelle scaricate

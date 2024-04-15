@@ -11,25 +11,25 @@ $rating = (mt_rand(0, 40) / 10) + 1;
         <div class="product-detail-container p-2">
 
             <div class="d-flex justify-content-between align-items-center">
-                <h6 class="fs-6 font-weight-bold">
+                <h6 class="fs-6 font-weight-bold text-center">
                     <?php echo $book['titolo']; ?>
                 </h6>
                 
             </div>
-            <!-- Autore -->
-            <div class="d-flex justify-content-between align-items-center">
+        
+            <div class="d-flex  align-items-center">
                 <blockquote class="author-name" data-author-id="<?php echo $book['id']; ?>">
                     <?php echo "Autore - ". $book['autore']; ?>
                 </blockquote>
             </div>
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex bi align-items-center">
                 <blockquote class="anno_pubblicazione" data-author-id="<?php echo $book['id']; ?>">
                     <?php echo "Anno - ". $book['anno_pubblicazione']; ?>
                 </blockquote>
             </div>
 
 
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="">
                 <blockquote class="genere" data-author-id="<?php echo $book['id']; ?>">
                     <?php echo $book['genere']; ?>
                 </blockquote>
@@ -51,7 +51,7 @@ $rating = (mt_rand(0, 40) / 10) + 1;
         }
         ?>
     </div>
-            <!-- Genere  -->
+     
             <div class="d-flex justify-content-between align-items-center pt-1">
                 <div class="color-select d-flex">
                     <?php
@@ -65,6 +65,9 @@ $rating = (mt_rand(0, 40) / 10) + 1;
                         case 'Romanzo':
                             $icon_class = 'bi bi-heart';
                             break;
+                            case 'Giallo':
+                                $icon_class = 'bi bi-heart';
+                                break;
                         default:
                             $icon_class = 'bi bi-book';
                             break;
