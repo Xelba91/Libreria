@@ -98,7 +98,7 @@
                                          </select>
 </div>
                                 
-                                <button type="submit" class="btn btn-primary">AGGIUNGI</button>
+                                <button type="submit" class="btn btn-primary mt-3">AGGIUNGI</button>
                             </form>
                         </div>
                         <div class="modal-footer">
